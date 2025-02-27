@@ -1,7 +1,7 @@
-export const Circle = ({ classname }) => {
+export const Circle = ({ classname ,src}) => {
   return (
     <div
-      className={`rounded-full bg-[#F3F4F6] absolute flex flex-shrink-0 opacity-[0.1] storke-black + ${classname}`}
-    ></div>
+      className={`rounded-full  border-black border-[1px] border-solid  absolute   + ${classname}`}
+    > <img src={src} className="absolute top-[27px] left-[20px]"   /></div>
   );
 };
