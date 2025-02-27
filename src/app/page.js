@@ -5,16 +5,12 @@ export default function Home() {
   return (
     <div className="flex bg-white w-full h-screen relative justify-center items-center">
       
-      <div className="bg-[#F3F4F6] w-full h-full relative">
-      
-      
-      </div>
+      <div className="bg-[#F3F4F6] w-full h-full relative"></div>
       <div className="bg-[#F3F4F6] w-full h-full relative flex flex-col ">
       <div className="bg-black w-full h-full rounded-bl-3xl rounded-tr-3xl"></div>
       <div className="bg-black w-full h-[312px]  rounded-bl-3xl rounded-tl-3xl relative ">
       </div>
       <div className="bg-black w-full h-full  rounded-bl-3xl rounded-tl-3xl rounded-br-3xl "></div>
-      
       </div>
       <Circle classname="w-[140px] h-[140px]" src={"pineL.svg"} z-1/>
       <Circle classname="w-[340px] h-[340px] absolute z-1" />
